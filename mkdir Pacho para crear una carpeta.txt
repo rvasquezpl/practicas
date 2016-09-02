@@ -1,0 +1,20 @@
+mkdir Pacho para crear una carpeta
+cd Pacho
+git config --global user.name "your name here"
+git config --global user.email "your email here"
+git add index.html ->para agregar un archivo al stage area( area intermedia antes de realizar el commit)
+git init -> para crear un repositorio git
+git status -> para ver los archivos que estan preparados antes de realizar el commit
+git commit -m "descripcion del commit"
+git log -> es para ver el historico de los commit
+git log --oneline -> nos muestra en una sola linea cada commit que hemos realizado
+git remote -v -> nos permite ver los repositorios dados de alta 
+git remote add <nombredelRemotoquelequieradar> https://github.com/rvasquezpl/practicas.git ->permite agregar un remoto el cual nos va a pedir clave y usuario del git
+git clone <url> para clonar un archivo de git
+git checkout <commit> -> regresa el codigo al commit elegido
+git checkout master -> pone el codigo en le ultimo commit puesto 
+git reset --soft   ->es para eliminar un commit pero no modificar el codigo.
+geit reset --hard -> elimina todo el comit con el codigo que se actualizo en esr  commit
+
+
+gitimmersion.com -> web pra practicar git
